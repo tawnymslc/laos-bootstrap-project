@@ -1,19 +1,24 @@
 {
   "name": "laos-project",
   "version": "1.0.0",
-  "description": "Git and NPM",
+  "description": "Informational website of the secret wars in Laos",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git"
   },
-  "author": "",
+  "author": "Tawny Mathi",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
